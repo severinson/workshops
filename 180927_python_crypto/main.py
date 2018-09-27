@@ -99,7 +99,7 @@ def plot_dfs(dfs, symbols, column='close'):
     plt.figure()
     for df, symbol in zip(dfs, symbols):
         plt.semilogy(df[column], '-', label=symbol)
-    plt.title(f'Crypto Value ({column})')
+    plt.title('Crypto Value ({})'.format(column))
     plt.ylabel('EUR')
     plt.legend()
     plt.tight_layout()
