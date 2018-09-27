@@ -5,11 +5,6 @@ import datetime
 
 # pyplot setup
 plt.style.use('ggplot')
-plt.rc('pgf',  texsystem='pdflatex')
-plt.rc('text', usetex=True)
-plt.rcParams['text.latex.preamble'] = [r'\usepackage{lmodern}']
-plt.rcParams['figure.figsize'] = (5, 5)
-plt.rcParams['figure.dpi'] = 300
 
 # data directory
 DIR = 'data'
